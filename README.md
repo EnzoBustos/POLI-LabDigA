@@ -1,2 +1,2 @@
 # POLI-LabDigA
-Repositório para armazenar arquivos e documentos referentes à matéria PCS3335 - Laboratório Digital A
+Repositório para armazenar arquivos e documentos referentes à matéria PCS3335 - Laboratório Digital A, com objetivo de: Desenvolvimento de projetos com circuitos digitais simples. Observação prática e montagem com dispositivos de eletrônica digital (FPGA e componentes discretos). Treinamento em depuração. Familiarização com instrumentação de bancada. Treinamento de trabalhos em grupo. Aprendizado dos processos de documentação de circuitos digitais.
