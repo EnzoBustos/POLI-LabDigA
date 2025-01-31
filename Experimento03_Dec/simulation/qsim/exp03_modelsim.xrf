@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/enzo/Desktop/Experimento03_MuxDec/exp03.bdf
+source_file = 1, C:/Users/enzo/Desktop/Experimento03_MuxDec/Waveform.vwf
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/others/maxplus2/74138.bdf
+design_name = exp03
+instance = comp, \Y~output , Y~output, exp03, 1
+instance = comp, \B~input , B~input, exp03, 1
+instance = comp, \C~input , C~input, exp03, 1
+instance = comp, \A~input , A~input, exp03, 1
+instance = comp, \D~input , D~input, exp03, 1
+instance = comp, \inst12~0 , inst12~0, exp03, 1

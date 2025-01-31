@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/enzo/Desktop/P1_labdig/simulation/qsim
+vP1_labdig
+!s110 1652213923
+!i10b 1
+!s100 4ESoBhJ7XH3Zm1A;M?h<h3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I8lU3niXO4Bcc92f49gFX32
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1652213922
+8P1_labdig.vo
+FP1_labdig.vo
+!i122 22
+L0 32 813
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1652213923.000000
+!s107 P1_labdig.vo|
+!s90 -work|work|P1_labdig.vo|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+n@p1_labdig
+vP1_labdig_vlg_vec_tst
+!s110 1652213924
+!i10b 1
+!s100 M]OIk=zDWZMXAo^PW]dAI1
+R1
+IVRhXhSQNiI=4I]34EJFV:3
+R2
+R0
+w1652213921
+8Waveform10.vwf.vt
+FWaveform10.vwf.vt
+!i122 23
+L0 30 43
+R3
+r1
+!s85 0
+31
+!s108 1652213924.000000
+!s107 Waveform10.vwf.vt|
+!s90 -work|work|Waveform10.vwf.vt|
+!i113 1
+R4
+R5
+n@p1_labdig_vlg_vec_tst

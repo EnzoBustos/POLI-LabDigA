@@ -1,0 +1,93 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Fardo_cheio",
+					"strict" : false
+				},
+				{
+					"name" : "Lote_cheio",
+					"strict" : false
+				},
+				{
+					"name" : "Cheio",
+					"strict" : false
+				},
+				{
+					"name" : "Cerveja_0",
+					"strict" : false
+				},
+				{
+					"name" : "Cerveja_1",
+					"strict" : false
+				},
+				{
+					"name" : "Cerveja_2",
+					"strict" : false
+				},
+				{
+					"name" : "Cerveja_3",
+					"strict" : false
+				},
+				{
+					"name" : "Lote_0",
+					"strict" : false
+				},
+				{
+					"name" : "Lote_1",
+					"strict" : false
+				},
+				{
+					"name" : "Lote_2",
+					"strict" : false
+				},
+				{
+					"name" : "Lote_3",
+					"strict" : false
+				},
+				{
+					"name" : "Num_por_fardo_0",
+					"strict" : false
+				},
+				{
+					"name" : "Num_por_fardo_3",
+					"strict" : false
+				},
+				{
+					"name" : "Num_por_fardo_2",
+					"strict" : false
+				},
+				{
+					"name" : "Num_por_fardo_1",
+					"strict" : false
+				},
+				{
+					"name" : "Num_por_lote_0",
+					"strict" : false
+				},
+				{
+					"name" : "Num_por_lote_3",
+					"strict" : false
+				},
+				{
+					"name" : "Num_por_lote_2",
+					"strict" : false
+				},
+				{
+					"name" : "Num_por_lote_1",
+					"strict" : false
+				},
+				{
+					"name" : "Reset",
+					"strict" : false
+				},
+				{
+					"name" : "Sensor",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

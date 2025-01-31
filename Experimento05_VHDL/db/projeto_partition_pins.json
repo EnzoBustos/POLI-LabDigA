@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "cheio",
+					"strict" : false
+				},
+				{
+					"name" : "vagas[3]",
+					"strict" : false
+				},
+				{
+					"name" : "vagas[0]",
+					"strict" : false
+				},
+				{
+					"name" : "vagas[1]",
+					"strict" : false
+				},
+				{
+					"name" : "vagas[2]",
+					"strict" : false
+				},
+				{
+					"name" : "entrada",
+					"strict" : false
+				},
+				{
+					"name" : "saida",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "clear",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

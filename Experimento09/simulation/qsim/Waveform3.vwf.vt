@@ -1,0 +1,90 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "06/10/2022 15:12:22"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          cerveja
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module cerveja_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg PROXIMO;
+reg RESET;
+// wires                                               
+wire Antes_NOT;
+wire Cerveja_1;
+wire Cerveja_2;
+wire Cerveja_3;
+wire Cerveja_4;
+wire CHEIO;
+wire dps_NOT;
+wire FARDO;
+wire Lote_1;
+wire Lote_2;
+wire Lote_3;
+wire Lote_4;
+
+// assign statements (if any)                          
+cerveja i1 (
+// port map - connection between master ports and signals/registers   
+	.Antes_NOT(Antes_NOT),
+	.Cerveja_1(Cerveja_1),
+	.Cerveja_2(Cerveja_2),
+	.Cerveja_3(Cerveja_3),
+	.Cerveja_4(Cerveja_4),
+	.CHEIO(CHEIO),
+	.dps_NOT(dps_NOT),
+	.FARDO(FARDO),
+	.Lote_1(Lote_1),
+	.Lote_2(Lote_2),
+	.Lote_3(Lote_3),
+	.Lote_4(Lote_4),
+	.PROXIMO(PROXIMO),
+	.RESET(RESET)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// PROXIMO
+always
+begin
+	PROXIMO = 1'b0;
+	PROXIMO = #10000 1'b1;
+	#10000;
+end 
+
+// RESET
+initial
+begin
+	RESET = 1'b0;
+	RESET = #70000 1'b1;
+	RESET = #20000 1'b0;
+	RESET = #490000 1'b1;
+	RESET = #20000 1'b0;
+end 
+endmodule
+

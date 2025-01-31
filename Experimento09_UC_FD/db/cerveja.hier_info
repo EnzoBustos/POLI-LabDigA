@@ -1,0 +1,214 @@
+|cerveja
+Fardo_cheio <= 7485:inst42.AEBO
+Reset => inst4.IN0
+Reset => inst7.IN0
+Reset => inst8.IN0
+Sensor => 74163:inst92.CLK
+Num_por_fardo_1 => 7485:inst42.B2
+Num_por_fardo_3 => 7485:inst42.B0
+Num_por_fardo_0 => 7485:inst42.B3
+Num_por_fardo_2 => 7485:inst42.B1
+Lote_cheio <= 7485:inst53.AEBO
+Num_por_lote_1 => 7485:inst53.B2
+Num_por_lote_3 => 7485:inst53.B0
+Num_por_lote_0 => 7485:inst53.B3
+Num_por_lote_2 => 7485:inst53.B1
+Cheio <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cerveja_0 <= 74163:inst92.QA
+Cerveja_1 <= 74163:inst92.QB
+Cerveja_2 <= 74163:inst92.QC
+Cerveja_3 <= 74163:inst92.QD
+Lote_0 <= 74163:inst67.QA
+Lote_1 <= 74163:inst67.QB
+Lote_2 <= 74163:inst67.QC
+Lote_3 <= 74163:inst67.QD
+
+
+|cerveja|7485:inst42
+a[0] => f7485:sub.a[0]
+a[1] => f7485:sub.a[1]
+a[2] => f7485:sub.a[2]
+a[3] => f7485:sub.a[3]
+b[0] => f7485:sub.b[0]
+b[1] => f7485:sub.b[1]
+b[2] => f7485:sub.b[2]
+b[3] => f7485:sub.b[3]
+agbi => ~NO_FANOUT~
+albi => ~NO_FANOUT~
+aebi => ~NO_FANOUT~
+agbo <= f7485:sub.agbo
+albo <= f7485:sub.albo
+aebo <= f7485:sub.aebo
+
+
+|cerveja|7485:inst42|f7485:sub
+ALBO <= 87.DB_MAX_OUTPUT_PORT_TYPE
+AGBI => 96.IN0
+A0 => 90.IN0
+A0 => 104.IN0
+A0 => 103.IN1
+B0 => 90.IN1
+B0 => 97.IN0
+A1 => 89.IN0
+A1 => 112.IN0
+A1 => 104.IN1
+B1 => 89.IN1
+B1 => 95.IN0
+A2 => 91.IN0
+A2 => 129.IN0
+A2 => 105.IN1
+B2 => 91.IN1
+B2 => 100.IN0
+A3 => 92.IN0
+A3 => 114.IN0
+A3 => 129.IN1
+B3 => 92.IN1
+B3 => 99.IN0
+AEBI => 93.IN0
+AEBI => 108.IN0
+AEBO <= 108.DB_MAX_OUTPUT_PORT_TYPE
+AGBO <= 86.DB_MAX_OUTPUT_PORT_TYPE
+ALBI => 134.IN0
+
+
+|cerveja|74163:inst92
+clk => f74163:sub.clk
+ldn => ~NO_FANOUT~
+clrn => f74163:sub.clrn
+enp => ~NO_FANOUT~
+ent => ~NO_FANOUT~
+d => ~NO_FANOUT~
+c => ~NO_FANOUT~
+b => ~NO_FANOUT~
+a => ~NO_FANOUT~
+qd <= f74163:sub.qd
+qc <= f74163:sub.qc
+qb <= f74163:sub.qb
+qa <= f74163:sub.qa
+rco <= f74163:sub.rco
+
+
+|cerveja|74163:inst92|f74163:sub
+RCO <= 129.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 134.CLK
+CLK => 122.CLK
+CLK => 111.CLK
+CLK => 34.CLK
+CLRN => 137.IN0
+CLRN => 126.IN0
+CLRN => 115.IN0
+CLRN => 68.IN0
+D => 136.IN0
+LDN => 144.IN0
+LDN => 132.IN0
+LDN => 121.IN0
+LDN => 110.IN0
+LDN => 71.IN0
+ENP => 130.IN0
+ENP => 119.IN0
+ENP => 108.IN0
+ENP => 105.IN0
+C => 124.IN0
+B => 113.IN0
+A => 70.IN0
+ENT => 140.DATAIN
+QD <= 134.DB_MAX_OUTPUT_PORT_TYPE
+QC <= 122.DB_MAX_OUTPUT_PORT_TYPE
+QB <= 111.DB_MAX_OUTPUT_PORT_TYPE
+QA <= 34.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cerveja|7485:inst53
+a[0] => f7485:sub.a[0]
+a[1] => f7485:sub.a[1]
+a[2] => f7485:sub.a[2]
+a[3] => f7485:sub.a[3]
+b[0] => f7485:sub.b[0]
+b[1] => f7485:sub.b[1]
+b[2] => f7485:sub.b[2]
+b[3] => f7485:sub.b[3]
+agbi => ~NO_FANOUT~
+albi => ~NO_FANOUT~
+aebi => ~NO_FANOUT~
+agbo <= f7485:sub.agbo
+albo <= f7485:sub.albo
+aebo <= f7485:sub.aebo
+
+
+|cerveja|7485:inst53|f7485:sub
+ALBO <= 87.DB_MAX_OUTPUT_PORT_TYPE
+AGBI => 96.IN0
+A0 => 90.IN0
+A0 => 104.IN0
+A0 => 103.IN1
+B0 => 90.IN1
+B0 => 97.IN0
+A1 => 89.IN0
+A1 => 112.IN0
+A1 => 104.IN1
+B1 => 89.IN1
+B1 => 95.IN0
+A2 => 91.IN0
+A2 => 129.IN0
+A2 => 105.IN1
+B2 => 91.IN1
+B2 => 100.IN0
+A3 => 92.IN0
+A3 => 114.IN0
+A3 => 129.IN1
+B3 => 92.IN1
+B3 => 99.IN0
+AEBI => 93.IN0
+AEBI => 108.IN0
+AEBO <= 108.DB_MAX_OUTPUT_PORT_TYPE
+AGBO <= 86.DB_MAX_OUTPUT_PORT_TYPE
+ALBI => 134.IN0
+
+
+|cerveja|74163:inst67
+clk => f74163:sub.clk
+ldn => ~NO_FANOUT~
+clrn => f74163:sub.clrn
+enp => ~NO_FANOUT~
+ent => ~NO_FANOUT~
+d => ~NO_FANOUT~
+c => ~NO_FANOUT~
+b => ~NO_FANOUT~
+a => ~NO_FANOUT~
+qd <= f74163:sub.qd
+qc <= f74163:sub.qc
+qb <= f74163:sub.qb
+qa <= f74163:sub.qa
+rco <= f74163:sub.rco
+
+
+|cerveja|74163:inst67|f74163:sub
+RCO <= 129.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 134.CLK
+CLK => 122.CLK
+CLK => 111.CLK
+CLK => 34.CLK
+CLRN => 137.IN0
+CLRN => 126.IN0
+CLRN => 115.IN0
+CLRN => 68.IN0
+D => 136.IN0
+LDN => 144.IN0
+LDN => 132.IN0
+LDN => 121.IN0
+LDN => 110.IN0
+LDN => 71.IN0
+ENP => 130.IN0
+ENP => 119.IN0
+ENP => 108.IN0
+ENP => 105.IN0
+C => 124.IN0
+B => 113.IN0
+A => 70.IN0
+ENT => 140.DATAIN
+QD <= 134.DB_MAX_OUTPUT_PORT_TYPE
+QC <= 122.DB_MAX_OUTPUT_PORT_TYPE
+QB <= 111.DB_MAX_OUTPUT_PORT_TYPE
+QA <= 34.DB_MAX_OUTPUT_PORT_TYPE
+
+

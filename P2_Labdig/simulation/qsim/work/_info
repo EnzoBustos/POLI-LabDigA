@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/enzo/Desktop/P2_Labdig/simulation/qsim
+vFD_relogio
+Z1 !s110 1657544120
+!i10b 1
+!s100 VF<GGV3e:daSZSVEHQbz13
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJ7:?eLc<ie@lk?OEEKC_52
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1657544119
+8FD_relogio.vo
+FFD_relogio.vo
+!i122 10
+L0 32 1287
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1657544120.000000
+!s107 FD_relogio.vo|
+!s90 -work|work|FD_relogio.vo|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@f@d_relogio
+vFD_relogio_vlg_vec_tst
+R1
+!i10b 1
+!s100 6@H[Z;<<W1ediRbJc8gHW3
+R2
+Io=dioh2O[o0o7Se9_<JUX1
+R3
+R0
+R4
+8Waveform3.vwf.vt
+FWaveform3.vwf.vt
+!i122 11
+L0 30 197
+R5
+r1
+!s85 0
+31
+R6
+!s107 Waveform3.vwf.vt|
+!s90 -work|work|Waveform3.vwf.vt|
+!i113 1
+R7
+R8
+n@f@d_relogio_vlg_vec_tst

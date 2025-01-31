@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/enzo/Desktop/Experimento_09/simulation/qsim
+vcerveja
+Z1 !s110 1654897287
+!i10b 1
+!s100 e:VHYVCoA69a][2PzVDMF3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IXRCH`WPoUL^N0czSXzO5j2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1654897285
+8cerveja.vo
+Fcerveja.vo
+!i122 82
+L0 32 658
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1654897287.000000
+!s107 cerveja.vo|
+!s90 -work|work|cerveja.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vcerveja_vlg_vec_tst
+R1
+!i10b 1
+!s100 gf]P8?>TIZ[`idga?4oYb0
+R2
+I;z8@akEM]6m0L?_ll5UPG0
+R3
+R0
+w1654897284
+8Waveform9.vwf.vt
+FWaveform9.vwf.vt
+!i122 83
+L0 30 55
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform9.vwf.vt|
+!s90 -work|work|Waveform9.vwf.vt|
+!i113 1
+R6
+R7

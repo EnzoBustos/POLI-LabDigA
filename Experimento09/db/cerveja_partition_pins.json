@@ -1,0 +1,57 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Cerveja_4",
+					"strict" : false
+				},
+				{
+					"name" : "Cerveja_3",
+					"strict" : false
+				},
+				{
+					"name" : "Cerveja_2",
+					"strict" : false
+				},
+				{
+					"name" : "Cerveja_1",
+					"strict" : false
+				},
+				{
+					"name" : "FARDO",
+					"strict" : false
+				},
+				{
+					"name" : "Lote_4",
+					"strict" : false
+				},
+				{
+					"name" : "Lote_3",
+					"strict" : false
+				},
+				{
+					"name" : "Lote_2",
+					"strict" : false
+				},
+				{
+					"name" : "Lote_1",
+					"strict" : false
+				},
+				{
+					"name" : "LOTE",
+					"strict" : false
+				},
+				{
+					"name" : "RESET",
+					"strict" : false
+				},
+				{
+					"name" : "SENSOR",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

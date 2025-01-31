@@ -1,0 +1,133 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Min_Seg_Real_0",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Real_1",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Real_2",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Real_3",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Real_4",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Real_5",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Real_6",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Real_7",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Real_8",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Real_9",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Real_10",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Real_11",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Real_12",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Real_13",
+					"strict" : false
+				},
+				{
+					"name" : "Incrementa",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Prog_0",
+					"strict" : false
+				},
+				{
+					"name" : "Zera",
+					"strict" : false
+				},
+				{
+					"name" : "Define",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Prog_1",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Prog_2",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Prog_3",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Prog_4",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Prog_5",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Prog_6",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Prog_7",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Prog_8",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Prog_9",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Prog_10",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Prog_11",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Prog_12",
+					"strict" : false
+				},
+				{
+					"name" : "Min_Seg_Prog_13",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

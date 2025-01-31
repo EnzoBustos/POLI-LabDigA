@@ -1,0 +1,25 @@
+Quartus Prime Archive log --	C:/Users/enzo/Desktop/Experimento_09/cerveja.qarlog
+
+Archive:	C:/Users/enzo/Desktop/Experimento_09/cerveja.qar
+Date:		Fri Jun 10 18:44:57 2022
+Quartus Prime		20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/enzo/Desktop/Experimento_09/Waveform.vwf
+C:/Users/enzo/Desktop/Experimento_09/Waveform1.vwf
+C:/Users/enzo/Desktop/Experimento_09/Waveform2.vwf
+C:/Users/enzo/Desktop/Experimento_09/Waveform3.vwf
+C:/Users/enzo/Desktop/Experimento_09/Waveform4.vwf
+C:/Users/enzo/Desktop/Experimento_09/Waveform5.vwf
+C:/Users/enzo/Desktop/Experimento_09/Waveform6.vwf
+C:/Users/enzo/Desktop/Experimento_09/Waveform7.vwf
+C:/Users/enzo/Desktop/Experimento_09/Waveform8.vwf
+C:/Users/enzo/Desktop/Experimento_09/Waveform9.vwf
+C:/Users/enzo/Desktop/Experimento_09/cerveja.bdf
+C:/Users/enzo/Desktop/Experimento_09/cerveja.qpf
+C:/Users/enzo/Desktop/Experimento_09/cerveja.qsf
+c:/intelfpga_lite/20.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 14 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

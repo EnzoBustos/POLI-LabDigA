@@ -1,0 +1,49 @@
+|projeto
+clock => contador_up_down:cont.clock
+clear => contador_up_down:cont.clear
+entrada => contador_up_down:cont.entrada
+saida => contador_up_down:cont.saida
+vagas[0] => Equal0.IN3
+vagas[0] => sinalizador:sinaliz.vagas[0]
+vagas[1] => Equal0.IN2
+vagas[1] => sinalizador:sinaliz.vagas[1]
+vagas[2] => Equal0.IN1
+vagas[2] => sinalizador:sinaliz.vagas[2]
+vagas[3] => Equal0.IN0
+vagas[3] => sinalizador:sinaliz.vagas[3]
+cheio <= sinalizador:sinaliz.cheio
+
+
+|projeto|contador_up_down:cont
+clock => IQ[0].CLK
+clock => IQ[1].CLK
+clock => IQ[2].CLK
+clock => IQ[3].CLK
+clear => IQ[0].ACLR
+clear => IQ[1].ACLR
+clear => IQ[2].ACLR
+clear => IQ[3].ACLR
+entrada => process_0.IN0
+entrada => process_0.IN0
+saida => process_0.IN1
+saida => process_0.IN1
+enable => process_0.IN1
+contagem[0] <= IQ[0].DB_MAX_OUTPUT_PORT_TYPE
+contagem[1] <= IQ[1].DB_MAX_OUTPUT_PORT_TYPE
+contagem[2] <= IQ[2].DB_MAX_OUTPUT_PORT_TYPE
+contagem[3] <= IQ[3].DB_MAX_OUTPUT_PORT_TYPE
+fim <= Equal1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|projeto|sinalizador:sinaliz
+vagas[0] => Equal0.IN3
+vagas[1] => Equal0.IN2
+vagas[2] => Equal0.IN1
+vagas[3] => Equal0.IN0
+carros[0] => Equal0.IN7
+carros[1] => Equal0.IN6
+carros[2] => Equal0.IN5
+carros[3] => Equal0.IN4
+cheio <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
